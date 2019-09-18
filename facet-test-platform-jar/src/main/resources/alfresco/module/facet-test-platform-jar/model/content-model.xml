@@ -38,11 +38,11 @@
                 <list>
                     <value></value>
                     <!-- Empty for default search-->
-                    <value>CAT01|Category One</value>
-                    <value>CAT02|Category Two</value>
-                    <value>CAT03|Category Three</value>
-                    <value>CAT04|Category Four</value>
-                    <value>CAT05|Category Five</value>
+                    <value>CAT01</value>
+                    <value>CAT02</value>
+                    <value>CAT03</value>
+                    <value>CAT04</value>
+                    <value>CAT05</value>
                 </list>
             </parameter>
         </constraint>

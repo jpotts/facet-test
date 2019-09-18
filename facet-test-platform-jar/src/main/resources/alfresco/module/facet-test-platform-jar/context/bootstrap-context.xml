@@ -44,18 +44,8 @@
     </bean>
 
     <bean id="facet.categoriesDisplayHandler" class="com.metaversant.alfresco.ConstraintDisplayHandler" parent="baseFacetLabelDisplayHandler" >
-       <constructor-arg index="0">
-           <ref bean="facet.constraintFacetFields" />
-       </constructor-arg>
-       <constructor-arg index="1">
-           <map>
-              <entry key="CAT01" value="listconstraint.acme_categories.CAT01" />
-              <entry key="CAT02" value="listconstraint.acme_categories.CAT02" />
-              <entry key="CAT03" value="listconstraint.acme_categories.CAT03" />
-              <entry key="CAT04" value="listconstraint.acme_categories.CAT04" />
-              <entry key="CAT05" value="listconstraint.acme_categories.CAT05" />
-           </map>
-       </constructor-arg>
+        <constructor-arg index="0" ref="facet.constraintFacetFields" />
+        <property name="dictionaryService" ref="DictionaryService" />
     </bean>
 
 </beans>
